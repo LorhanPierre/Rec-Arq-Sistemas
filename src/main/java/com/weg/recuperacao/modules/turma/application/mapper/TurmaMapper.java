@@ -13,14 +13,14 @@ public class TurmaMapper {
     public Turma toEntity(TurmaRequestDto turmaRequestDto){
         return new Turma(
                 turmaRequestDto.nomeTurma(),
-                turmaRequestDto.tagTurma()
+                turmaRequestDto.tagTurma().toUpperCase()
         );
     }
 
     public Turma toEntity(TurmaUpdateDto turmaUpdateDto){
         return new Turma(
                 turmaUpdateDto.nomeTurma(),
-                turmaUpdateDto.nomeTurma()
+                turmaUpdateDto.tagTurma().toUpperCase()
         );
     }
 

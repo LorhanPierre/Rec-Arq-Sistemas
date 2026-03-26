@@ -1,5 +1,6 @@
 package com.weg.recuperacao.modules.aluno.domain.entity;
 
+import com.weg.recuperacao.modules.ordemservico.domain.entity.OrdemServico;
 import com.weg.recuperacao.modules.turma.domain.entity.Turma;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -28,6 +29,10 @@ public class Aluno {
     @ManyToOne
     @JoinColumn(name = "idTurma")
     private Turma turma;
+
+    @ManyToOne
+    @JoinColumn(name = "idOrdemServico")
+    private OrdemServico ordemServico;
 
     public Aluno(String nomeAluno, String cpf) {
         this.nomeAluno = nomeAluno;

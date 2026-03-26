@@ -20,7 +20,6 @@ public class TurmaService {
         if (turmaRepository.turmaJaCadastrada(turmaRequestDto.tagTurma())){
             throw new RuntimeException("Turma já cadastrada");
         }
-
         var novaTurma = turmaMapper.toEntity(turmaRequestDto);
 
         turmaRepository.adicionarNovaTurma(novaTurma);
