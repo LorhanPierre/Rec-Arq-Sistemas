@@ -1,0 +1,4 @@
+package com.weg.recuperacao.modules.turma.application.dtos;
+
+public class TurmaUpdateDto {
+}
