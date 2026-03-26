@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface JpaAlunoRepository extends JpaRepository<Aluno, Long> {
+    boolean existsByCpf(String cpf);
 }

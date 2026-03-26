@@ -24,7 +24,7 @@ public class Turma {
     @Column(nullable = false)
     private String nomeTurma;
 
-    @Column(nullable = false, length = 3)
+    @Column(nullable = false, length = 5,unique = true)
     private String tagTurma;
 
     @OneToMany(mappedBy = "turma")
