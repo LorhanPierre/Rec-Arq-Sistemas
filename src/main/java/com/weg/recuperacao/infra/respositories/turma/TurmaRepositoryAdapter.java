@@ -26,6 +26,6 @@ public class TurmaRepositoryAdapter implements TurmaRepository {
     @Override
     public boolean turmaJaCadastrada(String tagTurma) {
         tagTurma.toUpperCase();
-        return jpaTurmaRepository.existsByTag(tagTurma);
+        return jpaTurmaRepository.existsByTagTurma(tagTurma);
     }
 }

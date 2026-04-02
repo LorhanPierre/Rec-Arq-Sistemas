@@ -3,5 +3,5 @@ package com.weg.recuperacao.modules.professor.application.mapper;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ProfessorController {
+public class ProfessorMapper {
 }

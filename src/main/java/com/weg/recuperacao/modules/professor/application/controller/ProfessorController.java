@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("professores")
+@RequestMapping("/professores")
 public class ProfessorController {
 }
