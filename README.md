@@ -4,7 +4,7 @@
 
 ### Projeto de gerenciamento de ordem de Serviços
 ---
-  Este projeto foi proposto, para a refatoração de código monolítico e aplicação dos principios de organização e boas práticas **SOLID** e **Clean Code**
+  Este projeto foi proposto a refatoração de um código monolítico e aplicação dos principios de organização e boas práticas **SOLID** e **Clean Code**
 
 ---
 ### Funcionalidades disponiveis até o momento:
