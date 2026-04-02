@@ -10,7 +10,8 @@
 ### Funcionalidades disponiveis até o momento:
 
 * Criar aluno (é necessário criar uma turma antes do aluno para evitar erros/ execptions)
-* Criar Turma  
+* Criar Turma
+* sinalizar Problema
 ---
 
 feito por: Lorhan Pierre de melo
